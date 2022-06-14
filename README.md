@@ -11,5 +11,5 @@ Dossiers:
 ## Auteurs:
 STOURBE Alban, DOMMARTIN Brieuc, GRALL Jean-Marie
 
-## Enseigante:
+## Enseignante:
 BELLON Anne
