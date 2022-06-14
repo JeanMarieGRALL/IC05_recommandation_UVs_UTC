@@ -2,9 +2,7 @@ library(stringr)
 library(readr)
 library(dplyr)
 
-setwd("C:/Users/brieu/Desktop/Cours/IC05/IC05_projet/R/ScrapENT")
-
-UVs <- read_csv("../../data/UVs.csv")
+UVs <- read_csv("../../data/data_scrapped_from_UV_catalogue/UVs.csv")
 
 
 description = UVs[,c("Code",
@@ -40,5 +38,5 @@ description$infos = paste(description$Intitule,
 
 description = distinct(description, Code, .keep_all = T )
 
-write.csv(description[,c("Code","infos")], "descriptions.csv")
+write.csv(description[,c("Code","infos")], "../../data/data_scrapped_from_UV_catalogue/descriptions.csv")
 
