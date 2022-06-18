@@ -8,6 +8,8 @@ Dossiers:
 
 * graph: Le fichier Gephi permettant la création de graphes ainsi que les exports PDF issu de ce fichier.
 
+Vous trouverez également un compte-rendu détaillant la démarche et les choix réalisés pour ce projet.
+
 ## Auteurs:
 STOURBE Alban, DOMMARTIN Brieuc, GRALL Jean-Marie
 
