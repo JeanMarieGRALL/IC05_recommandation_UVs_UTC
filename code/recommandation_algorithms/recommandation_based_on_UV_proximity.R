@@ -37,7 +37,7 @@ uv_etu = t(etu_uv)  # Tableau UVs - Etudiants
 rm(etu_uv)
 df_proximite_uv_uv = as.matrix(dist(uv_etu, method = proxi_UV_UV)) # Calcul la matrice de proximite
 
-liste_UV_etu = c("SR01", "SY02", "NF16", "GE22", "LA13", "RO03", "IA02", "LA14", "SI28", "NF18", "TN09") # Les UVs que l'utilisateur met en entree
+liste_UV_etu = c("AS01", "LA13", "MQ01", "MQ03", "TN12", "GE25", "NF04", "TF01", "TN20") # Les UVs que l'utilisateur met en entree
 
 # Pour chaque UV que l'utilisateur a saisi, on prend les 30 UVs les plus proches et on les met dans un dataframe (UV, proximite)
 UVs_proches = data.frame(UV = character(), Proxi = double())
